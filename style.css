@@ -1,0 +1,45 @@
+.hero-bg {
+    background: linear-gradient(90deg, #8173F9 0%, #64CBEA 100%);
+}
+
+.body-bg{
+    background-color: #8173F9;
+}
+
+.feature1-bg {
+    background-color: #FDDE55;
+}
+.feature2-bg {
+    background-color: #FFAA80;
+}
+.feature3-bg {
+    background-color: #FEEFAD;
+}
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+.profile-img {
+    height: 100px;
+    border-radius: 50%;
+  }
+  

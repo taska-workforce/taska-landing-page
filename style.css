@@ -43,3 +43,17 @@
     border-radius: 50%;
   }
   
+  .typing-container {
+    display: inline;
+    white-space: nowrap;
+    border-right: 2px solid;
+    animation: blink-caret 0.75s step-end infinite;
+}
+@keyframes blink-caret {
+    from, to { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+.typing-container.finished {
+  border-right: none;
+}

@@ -1,13 +1,13 @@
 .hero-bg {
     background: linear-gradient(90deg, #8173F9 0%, #64CBEA 100%);
 }
-/* body{
-  font-family: 'Inter', sans-serif;
+body{
+  font-family: 'Inter', sans-serif !important;
 
 }
 h1, h2, h3, h4, h5, h6, p, a, div, span, button {
-  font-family: 'Inter', sans-serif;
-} */
+  font-family: 'Inter', sans-serif !important;
+}
 
 .body-bg{
     background-color: #8173F9;
@@ -22,28 +22,6 @@ h1, h2, h3, h4, h5, h6, p, a, div, span, button {
 .feature3-bg {
     background-color: #FEEFAD;
 }
-.poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
 
 .profile-img {
     height: 100px;

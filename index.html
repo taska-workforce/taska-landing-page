@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 </head>
-<body class="antialiased body-bg text-gray-900 p-5">
+<body class="antialiased body-bg text-gray-900 md:p-5">
     <header class="bg-white shadow">
         <div class="mx-auto py-4 px-4 sm:px-6 lg:px-8">
             <nav class="flex justify-between items-center">
@@ -31,10 +31,10 @@
                         <h1 class="text-3xl md:text-5xl font-bold">Revolutionize Your Digital Presence</h1>
                         <p class="mt-4 text-sm md:text-base"><span id="typing-text1" class="typing-container"></span></p>
                         <p class="mt-4 text-sm md:text-base"><span id="typing-text2" class="typing-container"></span></p>
-                        <a href="#contact-form" id="get-started" class="contact-button font-regular mt-5 inline-block hover:bg-yellow-500 text-white text-base md:text-lg py-3 md:py-4 px-4 md:px-5 rounded-full border-2 border-yellow-500 bg-transparent hover:border-transparent shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50">Get Your Free Website Assessment</a>
+                        <a href="#contact-form" id="get-started" class="contact-button text-center mt-5 inline-block hover:bg-yellow-500 text-white text-base md:text-lg py-3 md:py-4 px-4 md:px-5 rounded-full border-2 border-yellow-500 bg-transparent hover:border-transparent shadow-md hover:shadow-lg focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:ring-opacity-50">Get Your Free Website Assessment</a>
                     </div>
                     <div class="w-full md:w-1/2">
-                        <img src="assets/images/icon-woman-removebg-preview.png" alt="Improve Your Website" class="img-icon mx-auto">
+                        <img src="assets/images/woman-laptop.png" alt="Improve Your Website" class="img-icon mx-auto">
                     </div>
                 </div>
             </section>
@@ -51,23 +51,28 @@
                 <div class="flex flex-wrap items-center">
                     <div class="w-full md:w-1/2">
                         <div class="h-full flex justify-center items-center">
-                            <img src="assets/icons/icon.png" class="h-auto md:h-full p-4">
+                            <img src="assets/images/man-smiling.png" class="w-1/2 h-auto md:h-full p-4">
                         </div>
                     </div>
-                    <div id="about" class="w-full md:w-1/2 text-left">
+                    <div id="about" class="w-full md:w-1/2 text-center md:text-left"> <!-- Adjusted here -->
                         <h2 class="text-4xl md:text-6xl font-bold text-gray-800">Who We Are</h2>
-                        <p class="text-gray-500 mt-4 max-w-2xl text-sm md:text-base">At Taska, we specialize in transforming outdated websites into engaging, user-friendly experiences. Our expert team leverages advanced heuristic algorithms to provide insightful assessments and actionable improvements.</p>
+                        <p class="text-gray-500 mt-4 max-w-2xl mx-auto md:mx-0 text-sm md:text-base"> <!-- Adjusted here -->
+                            At Taska, we specialize in transforming outdated websites into engaging, user-friendly experiences. Our expert team leverages advanced heuristic algorithms to provide insightful assessments and actionable improvements.
+                        </p>
                     </div>
                 </div>
             </section>
+            
 
             <section class="grid grid-cols-1 md:grid-cols-3 gap-4 fade-in-section">
                 <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300 text-left">
                     <div class="flex justify-between items-center mb-2">
                         <h5 class="text-xl font-medium text-gray-900">UI/UX Design</h5>
                     </div>
-                    <p class="text-gray-700 text-base">Join Us Now</p>
-                    <a href="#" class="text-indigo-500 hover:text-indigo-700 font-medium text-sm mt-4 inline-flex items-center">
+                    <p class="text-gray-700 text-base">Transform your digital landscape with our innovative UI/UX design solutions. Our team crafts user-centric interfaces that enhance engagement and elevate user experience.
+
+                    </p>
+                    <a href="#" class="learn-more text-indigo-500 hover:text-indigo-700 font-medium text-sm mt-4 inline-flex items-center">
                         Learn More
                         <svg class="ml-2 -mr-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -79,7 +84,7 @@
                         <h5 class="text-xl font-medium text-gray-900">Heuristic Evaluation</h5>
                     </div>
                     <p class="text-gray-700 text-base">Our proprietary algorithm analyzes key aspects of your website to identify areas for improvement.</p>
-                    <a href="#" class="text-indigo-500 hover:text-indigo-700 font-medium text-sm mt-4 inline-flex items-center">
+                    <a href="#" class="learn-more text-indigo-500 hover:text-indigo-700 font-medium text-sm mt-4 inline-flex items-center">
                         Learn More
                         <svg class="ml-2 -mr-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -91,7 +96,7 @@
                         <h5 class="text-xl font-medium text-gray-900">Implementation Support</h5>
                     </div>
                     <p class="text-gray-700 text-base">We provide hands-on support to implement changes and ensure optimal performance.</p>
-                    <a href="#" class="text-indigo-500 hover:text-indigo-700 font-medium text-sm mt-4 inline-flex items-center">
+                    <a href="#" class="learn-more text-indigo-500 hover:text-indigo-700 font-medium text-sm mt-4 inline-flex items-center">
                         Learn More
                         <svg class="ml-2 -mr-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -120,7 +125,7 @@
                     <form action="https://formspree.io/f/xjvndeen" method="POST" class="space-y-8">
                         <div>
                             <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your email</label>
-                            <input type="email" name="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@taska.com" required>
+                            <input type="email" name="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="name@gmail.com" required>
                         </div>
                         <div>
                             <label for="subject" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Subject</label>

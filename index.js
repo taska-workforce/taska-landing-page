@@ -21,6 +21,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
+    document.querySelectorAll('.learn-more').forEach(function(element) {
+        element.addEventListener('click', function(event) {
+            event.preventDefault();
+            document.querySelector('#contact-form').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    
+
     document.getElementById('get-started').addEventListener('click', function(event) {
         event.preventDefault();
         document.querySelector('#contact-form').scrollIntoView({
